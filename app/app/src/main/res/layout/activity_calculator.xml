@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.Calculator">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Fitness Book"
+                android:textColor="@color/skyBlue"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <EditText
+                android:id="@+id/editTextHeight"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:hint="Height (inch)"
+                android:layout_marginTop="90dp"
+                android:inputType="numberDecimal" />
+
+
+            <EditText
+                android:id="@+id/editTextWeight"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:hint="Weight (lb)"
+                android:layout_marginTop="18dp"
+                android:inputType="numberDecimal" />
+
+
+            <EditText
+                android:id="@+id/editTextWeightGoal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:hint="Weight Goal (lb)"
+                android:layout_marginTop="18dp"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:hint="Age"
+                android:layout_marginTop="18dp"
+                android:inputType="numberDecimal" />
+
+
+            <Spinner
+                android:id="@+id/spinnerGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:entries="@array/gender" />
+
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/skyBlue"
+                android:text="Submit" />
+
+
+            <TextView
+                android:id="@+id/textViewSuggestedCalories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Suggested Daily Calories:"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="95dp"
+                android:textColor="@color/skyBlue"
+                android:backgroundTint="@color/white"
+                android:text="Back"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewSuggestedCalories" />
+
+        </LinearLayout>
+    </ScrollView>
+

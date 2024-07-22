@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFrag">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="User Profile"
+        android:textColor="@color/skyBlue"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="133dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="135dp"
+        android:clickable="true"
+        android:src="@drawable/profpic"/>
+
+    <TextView
+        android:id="@+id/EditProf"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="Edit Profile"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textIsSelectable="true"
+        android:typeface="serif"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/CalCalc"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="Calorie Calculator"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textIsSelectable="true"
+        android:typeface="serif"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/logTab"
+        android:title="Log Meal"
+        android:icon="@drawable/log_meal">
+
+    </item>
+    <item
+        android:id="@+id/nutritionTab"
+        android:title="Nutrition"
+        android:icon="@drawable/factcheck_icon">
+
+    </item>
+    <item
+        android:id="@+id/workoutTab"
+        android:title="Fitness"
+        android:icon="@drawable/workout_tab">
+
+    </item>
+
+    <item
+        android:id="@+id/healthTab"
+        android:title="Health"
+        android:icon="@drawable/health_icon">
+
+    </item>
+
+
+    <item
+        android:id="@+id/profileTab"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon">
+
+    </item>
+
+</menu>

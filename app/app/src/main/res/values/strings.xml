@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">cs481Final</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="find_workout">Find Workout</string>
+    <string name="workouts">No Muscle Group Selected</string>
+    <string-array name="muscle_groups">
+        <item>Chest</item>
+        <item>Back</item>
+        <item>Shoulders</item>
+        <item>Arms</item>
+        <item>Abs</item>
+        <item>Legs</item>
+    </string-array>
+    string-array>
+
+    <string name="find_activity">Find Activity</string>
+    <string name="activities">No Target Area Selected</string>
+    <string-array name="issue">
+        <item>Sleep</item>
+        <item>Diet</item>
+        <item>Mindspace</item>
+        <item>Productiveness</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Female</item>
+        <item>Male</item>
+
+    </string-array>
+</resources>
